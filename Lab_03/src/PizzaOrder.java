@@ -34,7 +34,7 @@ public class PizzaOrder
       // having the same first name as one of the owners.
       // ADD LINES HERE FOR TASK #1
       
-      if (firstName.matches("(?i) Diane||Mike")) {
+      if (firstName.matches("(?i)Diane||Mike")) {
     	  discount = true;
       }
       

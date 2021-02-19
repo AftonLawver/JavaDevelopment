@@ -4,9 +4,9 @@ import java.util.regex.Matcher;
 public class RegEx {
 
 	public static void main(String[] args) {
-		String re = "\\w";
+		String re = "(?i)Afton";
 		
-		String text = "SU";
+		String text = "afton";
 		
 		Pattern pt = Pattern.compile(re);
 		Matcher mt = pt.matcher(text);
