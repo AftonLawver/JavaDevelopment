@@ -1,7 +1,8 @@
+
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Scanner;
 import java.util.List;
+import java.util.Scanner;
 
 
 public class Homework3Loop {
@@ -23,6 +24,7 @@ public class Homework3Loop {
 				}
 				numbers.add(number);
 				counter ++;
+				myScanner.close();
 			}
 		
 			else {
@@ -83,30 +85,5 @@ public class Homework3Loop {
 		
 		
 		
-		
-		
-		
-		
-//		List <Integer> numbers = new ArrayList<>();
-//		int input;
-//		
-//		do {
-//			Scanner myScanner = new Scanner(System.in);
-//			if (numbers.size() >= 1) {
-//				System.out.println("Enter another number: ");
-//				input = myScanner.nextInt();
-//				numbers.add(input);
-//			}
-//			System.out.println("Enter a number or enter -1 to exit: ");
-//			input = myScanner.nextInt();
-//			numbers.add(input);
-//			
-//			 
-//		}
-//		while (input != -1);
-		
-		
-		//System.out.println("The total is: " + total);
 
-	
 
