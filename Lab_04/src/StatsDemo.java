@@ -1,5 +1,11 @@
+
 import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.FileReader;
 // TASK #3 Add the file I/O import statement here
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 
 /**
    This class reads numbers from a file, calculates the
@@ -9,9 +15,11 @@ import java.util.Scanner;
 
 public class StatsDemo
 {
-   // TASK #3 Add the throws clause
-   public static void main(String[] args)
+   
+   public static void main(String[] args) throws IOException
    {
+	  
+	  
       double sum = 0;      // The sum of the numbers
       int count = 0;       // The number of numbers added
       double mean = 0;     // The average of the numbers
@@ -32,18 +40,38 @@ public class StatsDemo
 
       // ADD LINES FOR TASK #4 HERE
       // Create a FileReader object passing it the filename
+      FileReader myReader = new FileReader(filename);
+     
       // Create a BufferedReader object passing FileReader
       // object
+      BufferedReader myBuffer = new BufferedReader(myReader);
+     
       // Perform a priming read to read the first line of
       // the file
+      String firstLine = myBuffer.readLine();
+      System.out.println(firstLine);
+      
       // Loop until you are at the end of the file
+      while ((line = myBuffer.readLine()) != null) {
+      
       // Convert the line to a double value and add the
       // value to sum
+      double lineFinal = Double.parseDouble(line);
+      sum = lineFinal + sum;
+      
       // Increment the counter
+      count++;
+      
       // Read a new line from the file
+      }
+      
       // Close the input file
+      myBuffer.close();
+      
       // Store the calculated mean
-
+      mean = sum/count;
+      System.out.println(mean);
+     
       // ADD LINES FOR TASK #5 HERE
       // Reconnect FileReader object passing it the
       // filename
@@ -64,9 +92,18 @@ public class StatsDemo
 
       // ADD LINES FOR TASK #3 HERE
       // Create a FileWriter object using "Results.txt"
+      FileWriter myfilewriter = new FileWriter(filename);
+	  
+	  
       // Create a PrintWriter object passing the
       // FileWriter object
+      PrintWriter writer = new PrintWriter(myfilewriter);
       // Print the results to the output file
+      
+     // writer.printf("%.3f", mean);
+      //writer.printf("%.3f", stdDev);
+       
       // Close the output file
+      myfilewriter.close();
    }
 }
