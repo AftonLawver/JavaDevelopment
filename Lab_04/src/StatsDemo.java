@@ -1,6 +1,7 @@
 
 import java.util.Scanner;
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 // TASK #3 Add the file I/O import statement here
 import java.io.FileWriter;
@@ -27,8 +28,8 @@ public class StatsDemo
       String line;         // To hold a line from the file
       double difference;   // The value and mean difference
 
-      // Create an object of type Scanner
-      Scanner keyboard = new Scanner (System.in);
+      
+      Scanner keyboard = new Scanner (System.in);  // Create an object of type Scanner
       String filename;     // The user input file name
 
       // Prompt the user and read in the file name
@@ -40,70 +41,91 @@ public class StatsDemo
 
       // ADD LINES FOR TASK #4 HERE
       // Create a FileReader object passing it the filename
-      FileReader myReader = new FileReader(filename);
-     
-      // Create a BufferedReader object passing FileReader
-      // object
-      BufferedReader myBuffer = new BufferedReader(myReader);
-     
-      // Perform a priming read to read the first line of
-      // the file
-      String firstLine = myBuffer.readLine();
-      System.out.println(firstLine);
+      FileReader myReader = new FileReader(filename);  			
       
+      // Create a BufferedReader object passing FileReader object
+      BufferedReader myBuffer = new BufferedReader(myReader);  
+      
+      // Perform a priming read to read the first line of the file													
+      String firstLine = myBuffer.readLine();        			
+      
+
+      line = myBuffer.readLine();
       // Loop until you are at the end of the file
-      while ((line = myBuffer.readLine()) != null) {
-      
-      // Convert the line to a double value and add the
-      // value to sum
-      double lineFinal = Double.parseDouble(line);
-      sum = lineFinal + sum;
-      
-      // Increment the counter
-      count++;
-      
-      // Read a new line from the file
+      while (line != null) {  									
+    	  // Convert the line to a double value and add the value to sum
+	      sum += Double.parseDouble(line);
+
+	      // Increment the counter
+	      count++;  
+	      
+	      // Read a new line from the file
+	      line = myBuffer.readLine(); 										
       }
       
       // Close the input file
-      myBuffer.close();
+      myBuffer.close();  										
+      myReader.close();
       
       // Store the calculated mean
-      mean = sum/count;
-      System.out.println(mean);
+      mean = sum/count; 										 
      
       // ADD LINES FOR TASK #5 HERE
-      // Reconnect FileReader object passing it the
-      // filename
-      // Reconnect BufferedReader object passing
-      // FileReader object
+      // Reconnect FileReader object passing it the filename
+      FileReader myReader2 = new FileReader(filename);  
+      
+      // Reconnect BufferedReader object passing FileReader object
+      BufferedReader myBuffer2 = new BufferedReader(myReader2); 
+      
       // Reinitialize the sum of the numbers
+      sum = 0;   						
+      
       // Reinitialize the number of numbers added
-      // Perform a priming read to read the first line of
-      // the file
+      count = 0; 	
+      
+      // Perform a priming read to read the first line of the file
+      line = myBuffer2.readLine();  	
+      
       // Loop until you are at the end of the file
-      // Convert the line into a double value and
-      // subtract the mean
-      // Add the square of the difference to the sum
-      // Increment the counter
-      // Read a new line from the file
+      while (line != null) {  									
+    	  // Convert the line into a double value and subtract the mean
+    	  difference = Double.parseDouble(line) - mean;  
+    	  
+    	  // Add the square of the difference to the sum
+    	  sum += Math.pow(difference, 2); 
+    	  
+    	  // Increment the counter
+    	  count ++; 	
+    	  
+    	  // Read a new line from the file
+    	  line = myBuffer2.readLine();									
+    	  
+      }
       // Close the input file
-      // Store the calculated standard deviation
+      myBuffer2.close();
+	  myReader2.close();	
+	  
+	  // Store the calculated standard deviation
+	  stdDev = Math.sqrt(sum/count);							
+      
 
       // ADD LINES FOR TASK #3 HERE
       // Create a FileWriter object using "Results.txt"
-      FileWriter myfilewriter = new FileWriter(filename);
-	  
-	  
-      // Create a PrintWriter object passing the
-      // FileWriter object
-      PrintWriter writer = new PrintWriter(myfilewriter);
-      // Print the results to the output file
+	  File file = new File("Results.txt");
+      FileWriter myfilewriter = new FileWriter(file);	
       
-     // writer.printf("%.3f", mean);
-      //writer.printf("%.3f", stdDev);
-       
-      // Close the output file
-      myfilewriter.close();
+      // Create a PrintWriter object passing the FileWriter object
+      PrintWriter writer = new PrintWriter(myfilewriter);	
+      
+      // Print the results to the output file			
+      writer.print("The mean is: ");							
+      writer.printf("%.3f", mean);
+      writer.println();
+      writer.print("The standard deviation is: ");
+      writer.printf("%.3f", stdDev);
+      
+       // Close the output file
+      myfilewriter.close();										
+      writer.close();
    }
 }
