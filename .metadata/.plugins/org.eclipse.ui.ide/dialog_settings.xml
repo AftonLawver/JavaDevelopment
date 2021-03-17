@@ -16,6 +16,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\lawve\Desktop\JavaDevelopment1"/>
 			<item value="C:\Users\siu851463587\Desktop\CS202 Workshop\JavaDevelopment1"/>
 			<item value="C:\Users\siu851463587\Desktop\CS202 Workshop\JavaDevelopment"/>
 			<item value="C:\Users\lawve\Desktop\JavaLab"/>
