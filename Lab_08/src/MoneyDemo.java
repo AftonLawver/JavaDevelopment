@@ -35,7 +35,8 @@ public class MoneyDemo
       // Determine if the second amount equals
       // the first amount and store the result.
       boolean equal = SECOND_AMOUNT.equals(FIRST_AMOUNT);
-
+      
+      
       // Display the result.
       if(equal)
       {

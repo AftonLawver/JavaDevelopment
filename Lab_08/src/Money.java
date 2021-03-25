@@ -16,7 +16,7 @@ public class Money
    */
 
    public Money(double amount)
-   {
+   { 
       if (amount < 0)
       {
          System.out.println("Error: Negative amounts " +
@@ -36,12 +36,10 @@ public class Money
    // Document and write a copy constructor
    // Copy constructor takes a parameter of Money object
    public Money(Money moneyObj1) {
-	   System.out.println("Constructor called.");
 	   //Creating a deep copy of a Money object
 	   Money newMoney = new Money(moneyObj1);
-	   
-	   newMoney.dollars = moneyObj1.dollars;
-	   newMoney.cents = moneyObj1.cents;
+	   this.dollars = moneyObj1.dollars;
+	   this.cents = moneyObj1.cents;
 	   
    }
 
@@ -125,20 +123,24 @@ public class Money
    }
 
    // ADD LINES FOR TASK #2 HERE
-   // Document and write an equals method
-   public boolean equals(Money moneyObject1, Money moneyObject2) {
-	   if(moneyObject1.equals(moneyObject2)) {
-		   System.out.println("The two objects are the same.");
+   
+   public boolean equals(Money money) {
+	   if(this.cents == money.cents && this.dollars == money.dollars) {
 		   return true;
 	   }
 	   else {
-		   System.out.println("The two objects are different.");
 		   return false;
 	   }
    }
    
-   @Override
+   @Override 
    public String toString() {
-	   return "$" + dollars + "." +"cents";
+	   if (cents >= 10) {
+		   return "$" + dollars + "." + cents;
+	   }
+	   else {
+		   return "$" + dollars + "." +"0" + cents;
+	   }
+	   
    }
 }
