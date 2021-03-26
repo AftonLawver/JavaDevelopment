@@ -11,11 +11,13 @@ public class CreditCard {
 		owner = newCardHolder;
 		creditLimit = new Money(limit);
 		balance = new Money(0);
+		
 	}
 	
 	public Money getBalance() {
-		Money balance1 = new Money(balance);
-		return balance1;
+
+		
+		return new Money(balance);
 	}
 	
 	public Money getCreditLimit() {

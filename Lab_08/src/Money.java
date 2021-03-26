@@ -37,7 +37,6 @@ public class Money
    // Copy constructor takes a parameter of Money object
    public Money(Money moneyObj1) {
 	   //Creating a deep copy of a Money object
-	   Money newMoney = new Money(moneyObj1);
 	   this.dollars = moneyObj1.dollars;
 	   this.cents = moneyObj1.cents;
 	   
