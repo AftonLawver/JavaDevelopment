@@ -15,14 +15,12 @@ public class CreditCard {
 	}
 	
 	public Money getBalance() {
-
-		
 		return new Money(balance);
 	}
 	
 	public Money getCreditLimit() {
-		Money creditCardLimit = new Money(creditLimit);
-		return creditCardLimit;
+		
+		return new Money(creditLimit);
 	}
 	
 	public String getPersonals(){
@@ -31,10 +29,17 @@ public class CreditCard {
 	}
 	
 	public void charge(Money amount) {
-		
+		Money temporaryBalance = new Money(balance.add(amount));
+		if(creditLimit.compareTo(temporaryBalance) > 0) {
+			balance = balance.add(amount);
+			System.out.println("Charge: " + amount);
+		} 
+		else {
+			System.out.println("Exceeds credit limit.");
+		}
 	}
-	
 	public void payment(Money amount) {
-		
+		balance = balance.subtract(amount);
+		System.out.println("Payment: " + amount );
 	}
 }

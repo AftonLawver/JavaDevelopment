@@ -16,6 +16,7 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\siu851463587\Desktop\Lab_08.zip"/>
 			<item value="C:\Users\lawve\Desktop\JavaLab\Lab_04\Lab_04.zip"/>
 		</list>
 	</section>
