@@ -37,6 +37,8 @@ public class Money
    // Copy constructor takes a parameter of Money object
    public Money(Money moneyObj1) {
 	   //Creating a deep copy of a Money object
+	   // this keyword will take the attributes of the object passed as an argument
+	   // and copy them to the new object. 
 	   this.dollars = moneyObj1.dollars;
 	   this.cents = moneyObj1.cents;
 	   
@@ -122,7 +124,13 @@ public class Money
    }
 
    // ADD LINES FOR TASK #2 HERE
-   
+   // Here is the method equals()
+   // This method compares the attributes of two Money objects.
+   // If statement checks to see whether the created object has the 
+   // same amount of cents and dollars as the passed object. 
+   // If it does, then return true.
+   // If the two objects do not have the same amount of dollars and cents, then
+   // return false. 
    public boolean equals(Money money) {
 	   if(this.cents == money.cents && this.dollars == money.dollars) {
 		   return true;
@@ -133,6 +141,15 @@ public class Money
    }
    
    @Override 
+   // Must use override method toString()
+   // This allows us to modify it to do what we need it to 
+   // instead of its default functionality
+   // Here, when this method is called, it converts the dollars 
+   // and cents to a currency format. 
+   // If the cents are greater than or equal to 10, then
+   // we return the dollars and the cents with a decimal in between them.
+   // If the cents are less than 10, then we will add a zero after the decimal 
+   // point to show that there is a single digit of cents. 
    public String toString() {
 	   if (cents >= 10) {
 		   return "$" + dollars + "." + cents;
