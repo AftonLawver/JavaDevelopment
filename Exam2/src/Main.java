@@ -16,6 +16,6 @@ public class Main {
 		System.out.println("Item #2" +"      "+ item2.getDescription() + "       " + item2.getUnits() + "          " + item2.getPrice());
 		System.out.println("-----------------------------------------------------------");
 		System.out.println("Item #3" +"      "+ item3.getDescription() + "                " + item3.getUnits() + "          " + item3.getPrice());
-
+		
 	}
 }
