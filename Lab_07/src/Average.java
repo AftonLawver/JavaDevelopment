@@ -11,16 +11,18 @@ public class Average {
 	public Average() {
 		Scanner myScanner = new Scanner(System.in); // Create a Scanner Object
 		data = new int[5]; // allocating memory to the array
+		
 		int score = 1;
 		for(int i=0; i<5; i++) {
-			System.out.println("Enter score " + score + ": ");
+			System.out.print("Enter score " + score + ": ");
 			score++;
 			int num = myScanner.nextInt(); // Read User Input
 			data[i] = num; 
 		}
-		selectionSort();
-		calculateMean();
 		
+		this.selectionSort();
+		this.calculateMean();
+		myScanner.close();		
 	}
 	
 	// Public Methods
@@ -35,7 +37,7 @@ public class Average {
 			int number = data[i];
 			total = total + number;
 		}
-		int mean = total/data.length; // calculate the mean
+		mean = total/data.length; // calculate the mean
 	}
 	
 	/**
@@ -44,33 +46,42 @@ public class Average {
 	 */
 	public String toString() {
 		
-			
-		}
+		String output;
+		output = "The test scores in descending order are \n";
 		
-	}
-	
+		for(int i = 0; i < data.length; i++)
+		{
+			output = output + data[i] + " ";
+		}
+		output = output + "\nThe average is " + mean;
+		System.out.println(output);
+		return output;
+		
+		}
+
 	/**
 	 * Method uses the selection sort algorithm to rearrange
 	 * the data set from highest to lowest.
 	 */
 	public void selectionSort() {
-		int n = data.length;
-		
-		for (int i = 0; i < n-1; i++) {
-			// Find the minimum element in the unsorted array
-			int minimum = i;
-			for (int j = i + 1; j<n; j++) {
-				if(data[j]<data[minimum]) {
-					minimum = j;
+		for (int i = 0; i < data.length - 1; i++) {
+			
+			
+			int maxElementIndex = i;
+			for (int j = i + 1; j<data.length; j++) {
+				if(data[maxElementIndex] < data[j]) {
+					maxElementIndex = j;
 				}
-				
-			// Swap the found minimum element with the first element
-			int temp = data[minimum];
-			data[minimum] = data[i];
-			data[i] = temp;
-					
+			}
+			
+			
+			if (maxElementIndex != i) {
+				int temp = data[i];
+				data[i] = data[maxElementIndex];
+				data[maxElementIndex] = temp;
 			}
 		}
+		
 	}
 	
 }
