@@ -7,7 +7,8 @@ import java.io.*;
 
 public class CompactDisc
 {
-   public static void main(String[] args)throws IOException
+	
+	public static void main(String[] args)throws IOException
    {
       FileReader file = new FileReader("Classics.txt");
       BufferedReader input = new BufferedReader(file);
@@ -17,7 +18,9 @@ public class CompactDisc
       // ADD LINES FOR TASK #3 HERE
       // Declare an array of Song objects, called cd,
       // with a size of 6
-
+      Song cd[] = new Song[6];
+      
+      
       for (int i = 0; i < cd.length; i++)
       {
          title = input.readLine();
@@ -27,6 +30,11 @@ public class CompactDisc
          // Fill the array by creating a new song with
          // the title and artist and storing it in the
          // appropriate position in the array
+         
+         Song songDetails = new Song(title, artist);
+         cd[i] = songDetails;
+         
+         
       }
 
       System.out.println("Contents of Classics:");
@@ -34,6 +42,9 @@ public class CompactDisc
       {
          // ADD LINES FOR TASK #3 HERE
          // Print the contents of the array to the console
+    	  String songDetails = cd[i].toString();
+          System.out.print(songDetails);
+    	 
       }
    }
 }

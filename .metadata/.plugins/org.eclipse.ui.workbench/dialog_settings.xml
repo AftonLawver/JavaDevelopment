@@ -16,6 +16,7 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\siu851463587\Desktop\Lab_07.zip"/>
 			<item value="C:\Users\lawve\Desktop\SIU Spring 2021\CS 202\Lab_10.zip"/>
 			<item value="C:\Users\siu851463587\Desktop\Exam2.zip"/>
 			<item value="C:\Users\lawve\Desktop\Lab_08.zip"/>
