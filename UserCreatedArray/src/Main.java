@@ -47,7 +47,7 @@ public class Main {
 		}
 		int average = total / tests.length;
 		System.out.println("The average test score is: " + average);
-		
+		System.out.println("Thank you for using the automated Test Score Service!");
 	}
 
 }
