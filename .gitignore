@@ -11,3 +11,40 @@
 /UserCreatedArray/build/
 /Email Application/nbproject/private/
 /Email Application/build/
+
+# Log file
+*.log
+
+# Compiled class file
+*.class
+
+##############################
+## Eclipse
+##############################
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
+
+
+
+
+##############################
+## IntelliJ
+##############################
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
