@@ -1,5 +1,5 @@
 public class BasisCircle {
-    protected static double RADIUS;
+    protected double RADIUS;
     protected double pi = 3.14159;
 
     public BasisCircle(double radius){
@@ -10,8 +10,8 @@ public class BasisCircle {
         RADIUS = 1.0;
     }
 
-    public static double getRadius(){
-        return RADIUS;
+    public double getRadius(){
+        return this.RADIUS;
     }
 
     public void setRadius(double radius){
