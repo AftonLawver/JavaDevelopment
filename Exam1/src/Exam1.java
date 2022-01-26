@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * @author Afton Lawver
+ */
 
 public class Exam1 {
 
@@ -15,12 +18,12 @@ public class Exam1 {
 			year = myScanner.nextInt();
 		// If method isLeapYear returns true, then print out 
 		// the year is a leap year.
-		if (isLeapYear(year)) {
-			System.out.println(year + " is a leap year.");
-			}
-		else {
-			System.out.println(year + " is not a leap year.");
-			}
+			if (isLeapYear(year)) {
+				System.out.println(year + " is a leap year.");
+				}
+			else {
+				System.out.println(year + " is not a leap year.");
+				}
 		}
 		// Catch the exception and prompt the user to provide valid integer
 		catch (Exception e) {

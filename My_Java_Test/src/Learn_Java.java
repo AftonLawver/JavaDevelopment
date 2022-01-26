@@ -1,14 +1,14 @@
 
 import java.util.Scanner;
 public class Learn_Java {
-	
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		printNumbers();
-		
 	}
 	
-	public static void isNegative() {
+	public static void isNegative()
+	{
 		Scanner myScanner = new Scanner(System.in);
 		System.out.println("Enter a valid integer: ");
 		int number = myScanner.nextInt();		
@@ -24,7 +24,8 @@ public class Learn_Java {
 		}
 	}
 	
-	public static void printNumbers() {
+	public static void printNumbers()
+	{
 		Scanner myScanner = new Scanner(System.in);
 		System.out.println("Enter a number: ");
 		int number = myScanner.nextInt();
