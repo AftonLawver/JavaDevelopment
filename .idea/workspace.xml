@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e5060bb-fca1-4882-88b0-263fb5d92a9e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Data_Structures_1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures_1/src/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures_1/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures_1/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures_1/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures_1/src/Bag.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Structures_1/src/Bag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures_1/src/BagInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Structures_1/src/BagInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures_1/src/Data_Structures_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Structures_1/src/Data_Structures_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_05/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_05/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_05/src/carDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_05/src/carDemo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Data_Structures_Lab_1" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Learn_Java" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Learn_Java" />
+      <module name="My_Java_Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Learn_Java" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e5060bb-fca1-4882-88b0-263fb5d92a9e" name="Changes" comment="" />
+      <created>1643462395728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643462395728</updated>
+    </task>
+    <servers />
+  </component>
+</project>
