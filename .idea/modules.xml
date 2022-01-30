@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Banking Application/Banking Application.iml" filepath="$PROJECT_DIR$/Banking Application/Banking Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CS220_Lab2/CS220_Lab21.iml" filepath="$PROJECT_DIR$/CS220_Lab2/CS220_Lab21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Data_Structures_1/Data_Structures_1.iml" filepath="$PROJECT_DIR$/Data_Structures_1/Data_Structures_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Data_Structures_Lab_1/Data_Structures_Lab_1.iml" filepath="$PROJECT_DIR$/Data_Structures_Lab_1/Data_Structures_Lab_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmailApplication/EmailApplication.iml" filepath="$PROJECT_DIR$/EmailApplication/EmailApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exam1/Exam1.iml" filepath="$PROJECT_DIR$/Exam1/Exam1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exam2/Exam2.iml" filepath="$PROJECT_DIR$/Exam2/Exam2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework4/Homework4.iml" filepath="$PROJECT_DIR$/Homework4/Homework4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework_05/Homework_05.iml" filepath="$PROJECT_DIR$/Homework_05/Homework_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework_3_Loop/Homework_3_Loop.iml" filepath="$PROJECT_DIR$/Homework_3_Loop/Homework_3_Loop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_03/Lab_03.iml" filepath="$PROJECT_DIR$/Lab_03/Lab_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_04/Lab_04.iml" filepath="$PROJECT_DIR$/Lab_04/Lab_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_05/Lab_05.iml" filepath="$PROJECT_DIR$/Lab_05/Lab_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_06/Lab_06.iml" filepath="$PROJECT_DIR$/Lab_06/Lab_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_07/Lab_07.iml" filepath="$PROJECT_DIR$/Lab_07/Lab_07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_08/Lab_08.iml" filepath="$PROJECT_DIR$/Lab_08/Lab_08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_10/Lab_10.iml" filepath="$PROJECT_DIR$/Lab_10/Lab_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_11/Lab_11.iml" filepath="$PROJECT_DIR$/Lab_11/Lab_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/My_Java_Test/My_Java_Test.iml" filepath="$PROJECT_DIR$/My_Java_Test/My_Java_Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParkingSimulation/ParkingSimulation.iml" filepath="$PROJECT_DIR$/ParkingSimulation/ParkingSimulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReadingAndWritingFiles/ReadingAndWritingFiles.iml" filepath="$PROJECT_DIR$/ReadingAndWritingFiles/ReadingAndWritingFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RegularExpressions/RegularExpressions.iml" filepath="$PROJECT_DIR$/RegularExpressions/RegularExpressions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestScoresAndGrades/TestScoresAndGrades.iml" filepath="$PROJECT_DIR$/TestScoresAndGrades/TestScoresAndGrades.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserCreatedArray/UserCreatedArray.iml" filepath="$PROJECT_DIR$/UserCreatedArray/UserCreatedArray.iml" />
+    </modules>
+  </component>
+</project>

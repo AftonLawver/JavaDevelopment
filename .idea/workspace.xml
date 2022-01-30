@@ -2,31 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e5060bb-fca1-4882-88b0-263fb5d92a9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Data_Structures_1/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures_1/src/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures_1/src/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures_1/src/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures_1/src/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures_1/src/Bag.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Structures_1/src/Bag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures_1/src/BagInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Structures_1/src/BagInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structures_1/src/Data_Structures_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Structures_1/src/Data_Structures_1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_05/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_05/src/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework_05/src/carDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_05/src/carDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS220_Lab2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS220_Lab2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS220_Lab2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS220_Lab2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS220_Lab2/CS220_Lab2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS220_Lab2/src/WholeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS220_Lab2/src/WholeNumberMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banking Application/Banking Application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Banking Application/Banking Application.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banking Application/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Banking Application/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures_1/Data_Structures_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Structures_1/Data_Structures_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Structures_Lab_1/Data_Structures_Lab_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Structures_Lab_1/Data_Structures_Lab_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EggBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/My_Java_Test/src/EggBasket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailApplication/EmailApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EmailApplication/EmailApplication.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailApplication/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EmailApplication/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam1/Exam1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Exam1/Exam1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam1/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Exam1/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam2/Exam2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Exam2/Exam2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam2/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Exam2/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework4/Homework4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Homework4/Homework4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework4/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Homework4/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_05/Homework_05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_05/Homework_05.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_05/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_05/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_05/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_05/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_3_Loop/Homework_3_Loop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_3_Loop/Homework_3_Loop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework_3_Loop/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Homework_3_Loop/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_03/Lab_03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_03/Lab_03.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_03/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_03/bin/PizzaOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_03/bin/PizzaOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_03/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_03/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_04/Lab_04.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_04/Lab_04.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_05/Lab_05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_05/Lab_05.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_05/src/Lab_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_05/src/Lab_05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_06/Lab_06.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_06/Lab_06.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_07/Lab_07.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_07/Lab_07.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_08/Lab_08.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_08/Lab_08.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_10/Lab_10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_10/Lab_10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_11/Lab_11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_11/Lab_11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_Java_Test/My_Java_Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/My_Java_Test/My_Java_Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParkingSimulation/ParkingSimulation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ParkingSimulation/ParkingSimulation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParkingSimulation/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParkingSimulation/bin/classes/ParkedCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/ParkingSimulation/bin/classes/ParkedCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParkingSimulation/bin/classes/ParkingMeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/ParkingSimulation/bin/classes/ParkingMeter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParkingSimulation/bin/classes/ParkingTicket.class" beforeDir="false" afterPath="$PROJECT_DIR$/ParkingSimulation/bin/classes/ParkingTicket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParkingSimulation/bin/classes/PolliceOfficer.class" beforeDir="false" afterPath="$PROJECT_DIR$/ParkingSimulation/bin/classes/PolliceOfficer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParkingSimulation/bin/simulation/Simulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/ParkingSimulation/bin/simulation/Simulation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadingAndWritingFiles/ReadingAndWritingFiles.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ReadingAndWritingFiles/ReadingAndWritingFiles.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegularExpressions/RegularExpressions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RegularExpressions/RegularExpressions.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestScoresAndGrades/TestScoresAndGrades.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestScoresAndGrades/TestScoresAndGrades.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserCreatedArray/UserCreatedArray.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UserCreatedArray/UserCreatedArray.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserCreatedArray/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/UserCreatedArray/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserCreatedArray/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserCreatedArray/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserCreatedArray/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/UserCreatedArray/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testfile.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectId" id="24OjfvIwgt6e4rDimzj2ZYo8Y6X" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,9 +79,26 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Data_Structures_Lab_1" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CS220_Lab2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lawve\Desktop\JavaDevelopment\My_Java_Test\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Lab_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab_05" />
+      <module name="Lab_05" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Learn_Java" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Learn_Java" />
       <module name="My_Java_Test" />
@@ -44,8 +106,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Data_Structures_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WholeNumberMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="16" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="WholeNumberMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.WholeNumberMain" />
+        <item itemvalue="Application.Lab_05" />
         <item itemvalue="Application.Learn_Java" />
       </list>
     </recent_temporary>
@@ -60,5 +140,16 @@
       <updated>1643462395728</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
