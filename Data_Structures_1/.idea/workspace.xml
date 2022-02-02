@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c215654-db25-4fe9-af47-a431ab456811" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4a5edc56-3183-4f60-ba18-97bb6bbd8feb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +13,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="24Q437XPOrZeGauGSNDRwXyf4vF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="24WJ2CKLEiWMLAVAKr4u9cchFrx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,31 +21,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="16" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LinkedList" />
-  </component>
-  <component name="RunManager">
-    <configuration name="WholeNumberMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WholeNumberMain" />
-      <module name="CS220_Lab2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.WholeNumberMain" />
-      </list>
-    </recent_temporary>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CS220_Data_Structures" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7c215654-db25-4fe9-af47-a431ab456811" name="Changes" comment="" />
-      <created>1643549275319</created>
+      <changelist id="4a5edc56-3183-4f60-ba18-97bb6bbd8feb" name="Changes" comment="" />
+      <created>1643740200230</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1643549275319</updated>
+      <updated>1643740200230</updated>
     </task>
     <servers />
   </component>
