@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AGameOf21/AGameOf21.iml" filepath="$PROJECT_DIR$/AGameOf21/AGameOf21.iml" />
       <module fileurl="file://$PROJECT_DIR$/Banking Application/Banking Application.iml" filepath="$PROJECT_DIR$/Banking Application/Banking Application.iml" />
       <module fileurl="file://$PROJECT_DIR$/CS220_Lab2/CS220_Lab21.iml" filepath="$PROJECT_DIR$/CS220_Lab2/CS220_Lab21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cho_Han/Cho_Han/Cho_Han.iml" filepath="$PROJECT_DIR$/Cho_Han/Cho_Han/Cho_Han.iml" />
       <module fileurl="file://$PROJECT_DIR$/Data_Structures_1/Data_Structures_1.iml" filepath="$PROJECT_DIR$/Data_Structures_1/Data_Structures_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Data_Structures_Lab_1/Data_Structures_Lab_1.iml" filepath="$PROJECT_DIR$/Data_Structures_Lab_1/Data_Structures_Lab_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/EmailApplication/EmailApplication.iml" filepath="$PROJECT_DIR$/EmailApplication/EmailApplication.iml" />
@@ -24,8 +26,10 @@
       <module fileurl="file://$PROJECT_DIR$/ParkingSimulation/ParkingSimulation.iml" filepath="$PROJECT_DIR$/ParkingSimulation/ParkingSimulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReadingAndWritingFiles/ReadingAndWritingFiles.iml" filepath="$PROJECT_DIR$/ReadingAndWritingFiles/ReadingAndWritingFiles.iml" />
       <module fileurl="file://$PROJECT_DIR$/RegularExpressions/RegularExpressions.iml" filepath="$PROJECT_DIR$/RegularExpressions/RegularExpressions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SampleClass/SampleClass/SampleClass.iml" filepath="$PROJECT_DIR$/SampleClass/SampleClass/SampleClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestScoresAndGrades/TestScoresAndGrades.iml" filepath="$PROJECT_DIR$/TestScoresAndGrades/TestScoresAndGrades.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserCreatedArray/UserCreatedArray.iml" filepath="$PROJECT_DIR$/UserCreatedArray/UserCreatedArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cs files/demo/demo.iml" filepath="$PROJECT_DIR$/../cs files/demo/demo.iml" />
     </modules>
   </component>
 </project>
