@@ -8,6 +8,11 @@ public class Stock {
         currentPrice = price;
     }
 
+    public Stock(Stock stockObject) {
+        symbol = stockObject.getSymbol();
+        currentPrice = stockObject.getPrice();
+    }
+
     public String getSymbol() {
         return symbol;
     }
@@ -28,6 +33,11 @@ public class Stock {
         else {
             return false;
         }
+    }
+
+    public Stock copyObject() {
+        Stock newStock = new Stock(symbol, currentPrice);
+        return newStock;
     }
 
 }

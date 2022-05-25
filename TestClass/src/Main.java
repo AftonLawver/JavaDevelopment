@@ -1,11 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        Stock myStock = new Stock("AAPL", 12.50);
+        String name = "Afton";
+        String anotherName = "Afton";
+        System.out.println("Are they pointing to the same object in memory? ");
+        System.out.printf("Before change: %b \n", name == anotherName);
+        anotherName = new String("Afton");
 
-        Stock myNewStock = new Stock("AAPL", 12.50);
-
-        boolean equal = myStock.equals(myNewStock);
-        System.out.println(equal);
+        System.out.printf("After change: %b \n", name == anotherName);
 
     }
 }
