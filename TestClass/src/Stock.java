@@ -13,6 +13,10 @@ public class Stock {
         currentPrice = stockObject.getPrice();
     }
 
+    public Stock(String symbol) {
+        this(symbol, 0.0);
+    }
+
     public String getSymbol() {
         return symbol;
     }
