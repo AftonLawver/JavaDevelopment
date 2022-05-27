@@ -23,9 +23,9 @@ public class Instructor {
     }
 
     public String toString() {
-        String output = "Instructor First name: " + this.firstName + "\n"+
-        "Instructor Last name: " + this.lastName + "\n" +
-        "Instructor Office number: " + this.officeNumber;
+        String output = "First name: " + this.firstName + "\n"+
+        "Last name: " + this.lastName + "\n" +
+        "Office number: " + this.officeNumber;
 
         return output;
     }
