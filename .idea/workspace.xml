@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e5060bb-fca1-4882-88b0-263fb5d92a9e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TestClass/src/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolSystem/src/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolSystem/src/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolSystem/src/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolSystem/src/Instructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolSystem/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolSystem/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolSystem/src/TextBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolSystem/src/TextBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestClass/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestClass/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
       <recent name="C:\Users\lawve\Desktop\JavaDevelopment\My_Java_Test\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ChoHan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ChoHan" />
       <module name="Cho_Han" />
@@ -91,8 +89,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.GameSimulation" />
         <item itemvalue="Application.ChoHan" />
         <item itemvalue="Application.DiceDemo" />

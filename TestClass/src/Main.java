@@ -1,7 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        Stock myStock = new Stock("AAPL", 175.50);
-        System.out.println(myStock.toString());
+        Circle myCircle = new Circle(1);
+        Circle mySecondCircle = new Circle(15);
 
+        boolean output = myCircle.greaterThan(mySecondCircle);
+        System.out.println(output);
     }
 }
