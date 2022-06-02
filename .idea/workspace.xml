@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e5060bb-fca1-4882-88b0-263fb5d92a9e" name="Changes" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/CarpetCalculator/CarpetCalculator.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CarpetCalculator/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CarpetCalculator/src/RoomCarpet.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CarpetCalculator/src/RoomDimension.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+=======
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
