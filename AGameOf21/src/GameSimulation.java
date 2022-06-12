@@ -6,6 +6,7 @@ public class GameSimulation {
     public static void main(String[] args) {
         Die die1 = new Die();
         Die die2 = new Die();
+
         Scanner keyboard = new Scanner(System.in);
 
         System.out.println("Enter your name: ");

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AGameOf21/AGameOf21.iml" filepath="$PROJECT_DIR$/AGameOf21/AGameOf21.iml" />
       <module fileurl="file://$PROJECT_DIR$/Banking Application/Banking Application.iml" filepath="$PROJECT_DIR$/Banking Application/Banking Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinaryToDecimalConversion/BinaryToDecimalConversion.iml" filepath="$PROJECT_DIR$/BinaryToDecimalConversion/BinaryToDecimalConversion.iml" />
       <module fileurl="file://$PROJECT_DIR$/CS220_Lab2/CS220_Lab21.iml" filepath="$PROJECT_DIR$/CS220_Lab2/CS220_Lab21.iml" />
       <module fileurl="file://$PROJECT_DIR$/CarInstrumentSimulator/CarInstrumentSimulator.iml" filepath="$PROJECT_DIR$/CarInstrumentSimulator/CarInstrumentSimulator.iml" />
       <module fileurl="file://$PROJECT_DIR$/CarpetCalculator/CarpetCalculator.iml" filepath="$PROJECT_DIR$/CarpetCalculator/CarpetCalculator.iml" />
