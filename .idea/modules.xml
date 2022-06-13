@@ -32,6 +32,7 @@
       <module fileurl="file://$PROJECT_DIR$/RegularExpressions/RegularExpressions.iml" filepath="$PROJECT_DIR$/RegularExpressions/RegularExpressions.iml" />
       <module fileurl="file://$PROJECT_DIR$/SampleClass/SampleClass/SampleClass.iml" filepath="$PROJECT_DIR$/SampleClass/SampleClass/SampleClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/SchoolSystem/SchoolSystem.iml" filepath="$PROJECT_DIR$/SchoolSystem/SchoolSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShiftSupervisor/ShiftSupervisor.iml" filepath="$PROJECT_DIR$/ShiftSupervisor/ShiftSupervisor.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestClass/TestClass.iml" filepath="$PROJECT_DIR$/TestClass/TestClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestScoresAndGrades/TestScoresAndGrades.iml" filepath="$PROJECT_DIR$/TestScoresAndGrades/TestScoresAndGrades.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserCreatedArray/UserCreatedArray.iml" filepath="$PROJECT_DIR$/UserCreatedArray/UserCreatedArray.iml" />
