@@ -1,17 +1,37 @@
 public class Main {
     public static void main(String[] args)
     {
-        Product product1 = new Product(1, 19.99);
-        Product product2 = new Product(2, 29.99);
+        System.out.println("Product 1 Original price: $19.99");
+        System.out.println("Product 2 Original price: $29.99\n");
         StoreSale store1 = new StoreSale();
         StoreSale store2 = new StoreSale();
-        store1.modifyDiscountRate(0.10);
-        store2.modifyDiscountRate(0.05);
-        System.out.println("Sale Price of product 1");
-        product1.setProductSalePrice(product1.getProductOriginalPrice() - store1.calculateDiscount(product1));
-        System.out.println(product1.getProductSalePrice());
-        System.out.println("Sale Price of product 2");
-        product2.setProductSalePrice(product2.getProductOriginalPrice() - store2.calculateDiscount(product2));
-        System.out.println(product2.getProductSalePrice());
+        System.out.println("Store 1 ---------");
+        StoreSale.modifyDiscountRate(0.10);
+        store1.calculateDiscount();
+        System.out.println("\n");
+
+        System.out.println("Store 2 ---------");
+        StoreSale.modifyDiscountRate(0.05);
+        store2.calculateDiscount();
+        System.out.println("\n");
+
+        StoreSale.modifyDiscountRate(0.12);
+        System.out.println("After setting discount rate to 12%\n");
+        System.out.println("Store 1 ---------");
+        store1.calculateDiscount();
+        System.out.println("\n");
+
+        System.out.println("Store 2 ---------");
+        store2.calculateDiscount();
+
+
+
+
+
+
+
+
+
+
     }
 }

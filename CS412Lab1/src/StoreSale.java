@@ -5,7 +5,9 @@ public class StoreSale {
     private String storeOpenTime;
     private String storeCloseTime;
     private static double discountRate;
-    private Product product;
+
+    private Product product1;
+    private Product product2;
 
     StoreSale(String name, String storeAddress, String storeOpenTime, String storeCloseTime, Product product) {
         this.name = name;
@@ -14,12 +16,9 @@ public class StoreSale {
         this.storeCloseTime = storeCloseTime;
     }
 
-    StoreSale(String name, Product product) {
-        this.name = name;
-    }
-
     StoreSale() {
-
+        this.product1 = new Product(19.99);
+        this.product2 = new Product(29.99);
     }
 
     public String getName() {
@@ -55,11 +54,14 @@ public class StoreSale {
         this.storeCloseTime = storeCloseTime;
     }
 
-    public double calculateDiscount(Product myProduct) {
-        return (myProduct.getProductOriginalPrice() * discountRate);
+    public void calculateDiscount() {
+        product1.setProductSalePrice(product1.getProductOriginalPrice() - (product1.getProductOriginalPrice() * discountRate));
+        product2.setProductSalePrice(product2.getProductOriginalPrice() - (product2.getProductOriginalPrice() * discountRate));
+        System.out.println("Product 1: " + product1.getProductSalePrice());
+        System.out.println("Product 2: " + product2.getProductSalePrice());
     }
     public static void modifyDiscountRate(double newDiscountRate) {
-        discountRate = newDiscountRate;
+        StoreSale.discountRate = newDiscountRate;
     }
 
 

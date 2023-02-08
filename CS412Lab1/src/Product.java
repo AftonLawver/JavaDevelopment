@@ -13,8 +13,7 @@ public class Product {
         this.productSalePrice = productSalePrice;
     }
 
-    Product(int productNumber, double productOriginalPrice) {
-        this.productNumber = productNumber;
+    Product(double productOriginalPrice) {
         this.productOriginalPrice = productOriginalPrice;
     }
 
