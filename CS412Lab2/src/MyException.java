@@ -1,3 +1,6 @@
+// Afton Lawver
+// siu851463587
+
 class MyException extends Exception {
     private String exceptionMessage;
 

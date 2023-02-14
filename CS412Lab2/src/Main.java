@@ -1,17 +1,43 @@
+// Afton Lawver
+// siu851463587
+
 public class Main {
     public static void main(String[] args) throws MyException {
-        // Create an array that holds BankAccount objects
         BankAccount[] bankAccountObjects = new BankAccount[4];
-//        bankAccountObjects[0] = new BankAccount(72342, "John", "Smith",7000);
-//        bankAccountObjects[1] = new BankAccount(75676, "Tom", "Jones",400);
-//        bankAccountObjects[2] = new BankAccount(45632, "Caleb", "Miller",20000);
-//        bankAccountObjects[3] = new BankAccount(28599, "Megan", "Halstead",1400);
-        // create some objects and use setter methods to set the fields of the objects within the array
-        BankAccount myAccount = new BankAccount();
-        myAccount.setAccountBalance(600);
+        bankAccountObjects[0] = new BankAccount();
+        bankAccountObjects[1] = new BankAccount();
+        bankAccountObjects[2] = new BankAccount();
+        bankAccountObjects[3] = new BankAccount();
 
+        bankAccountObjects[0].setAccountNumber(92387);
+        bankAccountObjects[0].setAccountFirstName("Afton");
+        bankAccountObjects[0].setAccountLastName("Lawver");
+        bankAccountObjects[0].setAccountBalance(1500);
 
+        bankAccountObjects[1].setAccountNumber(34827);
+        bankAccountObjects[1].setAccountFirstName("John");
+        bankAccountObjects[1].setAccountLastName("Smith");
+        bankAccountObjects[1].setAccountBalance(3000);
+
+        bankAccountObjects[2].setAccountNumber(37886);
+        bankAccountObjects[2].setAccountFirstName("Peter");
+        bankAccountObjects[2].setAccountLastName("Jackson");
+        bankAccountObjects[2].setAccountBalance(3400);
+
+        bankAccountObjects[3].setAccountNumber(93882);
+        bankAccountObjects[3].setAccountFirstName("Chris");
+        bankAccountObjects[3].setAccountLastName("Williams");
+        bankAccountObjects[3].setAccountBalance(7000);
+
+        System.out.println("\n\n");
+
+        System.out.println("--------------------Bank Accounts------------------");
+        System.out.println("\n");
+        for (int i = 0; i < 4; i++) {
+            System.out.println("Account number: " + bankAccountObjects[i].getAccountNumber());
+            System.out.println("Account Name: " + bankAccountObjects[i].getAccountFirstName() + " " + bankAccountObjects[i].getAccountLastName());
+            System.out.println("Account balance: " + bankAccountObjects[i].getAccountBalance());
+            System.out.println("\n\n");
+        }
     }
-
-
 }
