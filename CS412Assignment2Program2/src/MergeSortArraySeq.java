@@ -5,10 +5,8 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class MergeSortArraySeq implements Runnable{
-
     private int[] a;
     private int level;
-
     public MergeSortArraySeq(int[] a, int level) {
         this.a = a;
         this.level = level;
@@ -90,13 +88,14 @@ public class MergeSortArraySeq implements Runnable{
         long start = System.currentTimeMillis();
         mergeSort(newArray);
         long end = System.currentTimeMillis();
-        System.out.println("Total time for sequential sort: " + (end - start) + "ms");
+        System.out.println("Total time for sequential sort for " + numberOfElements +
+                 " elements: " + (end - start) + "ms");
 
         int[] newArray2 = initializeArray(numberOfElements);
         long start2 = System.currentTimeMillis();
-        parallelMergeSort(newArray2, 5);
+        parallelMergeSort(newArray2, 20);
         long end2 = System.currentTimeMillis();
 
-        System.out.println("Total time for parallel merge sort: " + (end2 - start2) + "ms");
+        System.out.println("Total time for parallel merge sort for " + numberOfElements + " elements using 20 threads: " + (end2 - start2) + "ms");
     }
 }
