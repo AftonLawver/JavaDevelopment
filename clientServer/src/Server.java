@@ -14,6 +14,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
+import java.io.FileWriter;
 
 public class Server extends JFrame 
 {
@@ -24,6 +25,7 @@ public class Server extends JFrame
    private ServerSocket server; // server socket
    private Socket connection; // connection to client
    private int counter = 1; // counter of number of connections
+   private FileWriter ServerOutputFile;
 
    // set up GUI
    public Server()
@@ -59,6 +61,8 @@ public class Server extends JFrame
       try // set up server to receive connections; process connections
       {
          server = new ServerSocket( 12345, 100 ); // create ServerSocket
+         
+         ServerOutputFile = new FileWriter("ServerOutputFile.txt");
 
          while ( true ) 
          {
@@ -118,9 +122,10 @@ public class Server extends JFrame
 
       do // process messages sent from client
       { 
-         try // read message and display it
+         try
          {
             message = ( String ) input.readObject(); // read new message
+            ServerOutputFile.write("\n" + message); // write message to file
             displayMessage( "\n" + message ); // display message
          } // end try
          catch ( ClassNotFoundException classNotFoundException ) 
@@ -142,6 +147,9 @@ public class Server extends JFrame
          output.close(); // close output stream
          input.close(); // close input stream
          connection.close(); // close socket
+
+         ServerOutputFile.write("\n"); // write new line to file
+         ServerOutputFile.close(); // close file
       } // end try
       catch ( IOException ioException ) 
       {
