@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e5060bb-fca1-4882-88b0-263fb5d92a9e" name="Changes" comment="" />
+    <list default="true" id="1e5060bb-fca1-4882-88b0-263fb5d92a9e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CS412Assignment3/src/TicTacToeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS412Assignment3/src/TicTacToeClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS412Assignment3/src/TicTacToeServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS412Assignment3/src/TicTacToeServerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS412Lab6/src/ChatServerOriginal.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,6 +122,7 @@
       <workItem from="1658348358746" duration="1687000" />
       <workItem from="1675691859582" duration="22000" />
       <workItem from="1676911468436" duration="24000" />
+      <workItem from="1681094548122" duration="171000" />
     </task>
     <servers />
   </component>
