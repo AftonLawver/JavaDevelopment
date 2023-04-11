@@ -77,11 +77,11 @@ public class StudentServerInterfaceClient extends JApplet {
 
     /** Initialize RMI */
     protected void initializeRMI() {
-        String host = "";
-        if (!isStandalone)
-            host = getCodeBase().getHost();
-        else
-            host = "localhost";
+        String host = "10.88.206.155";
+//        if (!isStandalone)
+//            host = getCodeBase().getHost();
+//        else
+//            host = "localhost";
         System.out.println("The host name is " + host);
         try {
             Registry registry = LocateRegistry.getRegistry(host, 6000);
