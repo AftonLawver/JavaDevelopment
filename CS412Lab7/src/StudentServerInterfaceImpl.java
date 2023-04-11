@@ -39,6 +39,7 @@ public class StudentServerInterfaceImpl extends UnicastRemoteObject
                 topScore = entry.getValue();
             }
         }
+        System.out.println(topStudent + " is the top student.");
         return topStudent + " is the top student.";
     }
 }
