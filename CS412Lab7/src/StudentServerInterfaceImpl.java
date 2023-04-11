@@ -1,39 +1,44 @@
-
-
 import java.rmi.*;
 import java.rmi.server.*;
 import java.util.*;
 
 public class StudentServerInterfaceImpl extends UnicastRemoteObject
     implements StudentServerInterface {
-  // Stores scores in a map indexed by name
-  private HashMap scores = new HashMap();
+    private HashMap<String, Double> scores = new HashMap<>();
 
-  public StudentServerInterfaceImpl() throws RemoteException {
-    initializeStudent();
-  }
-
-  /** Initialize student information */
-  protected void initializeStudent() {
-    scores.put("John", new Double(90.5));
-    scores.put("Michael", new Double(100));
-    scores.put("Michelle", new Double(98.5));
-    scores.put("David", new Double(77.25));
-    scores.put("Mark", new Double(81.75));
-  }
-
-  /** Implement the findScore method from the Student interface */
-  public double findScore(String name) throws RemoteException {
-    Double d = (Double)scores.get(name);
-
-    if (d == null) {
-      System.out.println("Student " + name + " is not found ");
-      return -1;
+    public StudentServerInterfaceImpl() throws RemoteException {
+        initializeStudent();
     }
-    else {
-      System.out.println("Student " + name + "\'s score is "
-        + d.doubleValue());
-      return d.doubleValue();
+
+    protected void initializeStudent() {
+        scores.put("John", 90.5);
+        scores.put("Michael", 100.0);
+        scores.put("Michelle", 98.5);
+        scores.put("David", 77.25);
+        scores.put("Mark", 81.75);
     }
-  }
+
+    public double findScore(String name) throws RemoteException {
+        Double d = scores.get(name);
+
+        if (d == null) {
+            System.out.println("Student " + name + " is not found ");
+            return -1;
+        } else {
+            System.out.println("Student " + name + "\'s score is " + d);
+            return d;
+        }
+    }
+
+    public String isTopStudent() throws RemoteException {
+        String topStudent = "";
+        double topScore = Double.MIN_VALUE;
+        for (Map.Entry<String, Double> entry : scores.entrySet()) {
+            if (entry.getValue() > topScore) {
+                topStudent = entry.getKey();
+                topScore = entry.getValue();
+            }
+        }
+        return topStudent + " is the top student.";
+    }
 }
