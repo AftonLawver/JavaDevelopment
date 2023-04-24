@@ -12,7 +12,7 @@ public class DisplayAuthors
 {
    // database URL                              
   // static final String DATABASE_URL = "jdbc:mysql://siu mysql hostname/database name";
-static final String DATABASE_URL = "jdbc:mysql://localhost:3306/books";
+    static final String DATABASE_URL = "jdbc:mysql://localhost:3306/books";
     // launch the application
    public static void main( String args[] )
    {
