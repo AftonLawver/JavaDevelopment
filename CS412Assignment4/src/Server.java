@@ -1,4 +1,4 @@
-//Sever.java
+//Server.java
 import java.rmi.registry.Registry;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.server.UnicastRemoteObject;
@@ -13,8 +13,8 @@ public class Server extends CustomersDBImpl {
             CustomersDBInterface stub = (CustomersDBInterface)
                     UnicastRemoteObject.exportObject(obj, 0);
 // Binding the remote object (stub) in the registry
-            Registry registry = LocateRegistry.getRegistry();
-            registry.bind("CustomersDBInterface", stub);
+            Registry registry = LocateRegistry.getRegistry("localhost", 2000);
+            registry.rebind("CustomersDBInterface", stub);
             System.err.println("Server ready");
         } catch (Exception e) {
             System.err.println("Server exception: " + e.toString());

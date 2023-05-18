@@ -1,6 +1,6 @@
 public class Customer implements java.io.Serializable {
     private int id;
-    private String firstname, lastname, branch, email;
+    private String firstname, lastname;
     public int getId() { return id; }
     public String getfName() { return firstname; }
     public String getlName() { return lastname; }

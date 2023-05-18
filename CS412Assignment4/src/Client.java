@@ -7,7 +7,7 @@ public class Client {
     public static void main(String[] args)throws Exception {
         try {
 // Getting the registry
-            Registry registry = LocateRegistry.getRegistry(null);
+            Registry registry = LocateRegistry.getRegistry("localhost", 2000);
 // Looking up the registry for the remote object
             CustomersDBInterface stub = (CustomersDBInterface)
                     registry.lookup("CustomersDBInterface");

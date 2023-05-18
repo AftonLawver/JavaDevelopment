@@ -3,7 +3,7 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.RemoteException; 
 import java.rmi.server.UnicastRemoteObject; 
 
-public class Server extends StudentsDBImpl { 
+public class Server extends StudentsDBImpl {
    public Server() {} 
    public static void main(String args[]) { 
       try { 

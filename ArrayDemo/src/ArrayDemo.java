@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class ArrayDemo {
     public static void main(String[] args) {
         int[] anArray;            // declares an array of integers
@@ -25,5 +28,51 @@ public class ArrayDemo {
         System.out.println("Element at index 7: " + anArray[7]);
         System.out.println("Element at index 8: " + anArray[8]);
         System.out.println("Element at index 9: " + anArray[9]);
+
+
+
+            // Arrays always have a fixed length
+            // ArrayLists allow us to add and remove elements
+
+            // Create an Array
+            String[] namesArray = {"Bob", "Dylan", "Chris", "Jack"};
+
+            // Create an ArrayList
+            ArrayList<String> namesArrayList = new ArrayList<>(Arrays.asList("Bob", "Dylan", "Chris", "Jack"));
+
+            // Get value from the Array
+            System.out.println(namesArray[2]);
+
+            // Get value from the ArrayList
+            System.out.println(namesArrayList.get(2));
+
+            // Get the size of the Array
+            System.out.println(namesArray.length);
+
+            // Get the size of the ArrayList
+            System.out.println(namesArrayList.size());
+
+            // Cannot add an element to an Array
+            // Add an element to the ArrayList
+            namesArrayList.add("Mark");
+
+            // Set an element in the Array
+            namesArray[0] = "Carl";
+
+            // Set an element in the ArrayList
+            namesArrayList.set(0, "Carl");
+            namesArrayList.set(0, "Carl");
+
+            // Remove an element in an ArrayList
+            namesArrayList.remove("Chris");
+
+            // Print out all of the elements
+            for (String name : namesArray) {
+                System.out.println(name);
+            }
+            System.out.println(namesArrayList);
+
+
+        }
     }
-}
+

@@ -1,6 +1,8 @@
 public class Student implements java.io.Serializable {   
-   private int id, score;   
-   private String firstname, lastname, branch, email;    
+   private int id, score;
+   private float studentGPA;
+   private String firstname, lastname, branch, email;
+   private String[] listOfCourses;
   
    public int getId() { 
       return id; 
@@ -19,7 +21,8 @@ public class Student implements java.io.Serializable {
    } 
    public String getEmail() { 
       return email; 
-   } 
+   }
+   public float getGPA() {return studentGPA; }
    public void setID(int id) { 
       this.id = id; 
    } 
@@ -37,5 +40,6 @@ public class Student implements java.io.Serializable {
    } 
    public void setEmail(String email) { 
       this.email = email; 
-   } 
+   }
+   public void setStudentGPA(float gpa) {this.studentGPA = gpa; }
 }

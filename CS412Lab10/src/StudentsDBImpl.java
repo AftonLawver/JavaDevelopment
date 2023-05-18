@@ -13,7 +13,7 @@ public class StudentsDBImpl implements StudentsDBInterface {
       String DB_URL = "jdbc:mysql://localhost:3306/students";  
       
       // Database credentials 
-      String USER = "root"; 
+      String USER = "root";
       String PASS = "102992";
       
       Connection conn = null; 
@@ -31,7 +31,7 @@ public class StudentsDBImpl implements StudentsDBInterface {
       System.out.println("Creating statement..."); 
       
       stmt = conn.createStatement();  
-      String sql = "SELECT * FROM STUDENT"; 
+      String sql = "SELECT * FROM STUDENT";
       ResultSet rs = stmt.executeQuery(sql);  
       
       //Extract data from result set 
